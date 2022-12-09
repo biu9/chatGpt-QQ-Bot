@@ -5,6 +5,7 @@
 该项目基于QIQC以及chatGpt提供的api搭建了qq机器人,使用时需要`@${bot-nickname} ${your question}`来发送请求
 
 使用演示:
+
 ![屏幕截图 2022-12-09 192904](https://typora-1309407228.cos.ap-shanghai.myqcloud.com/屏幕截图 2022-12-09 192904.png)
 
 ### 运行
