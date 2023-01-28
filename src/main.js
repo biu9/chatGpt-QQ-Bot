@@ -22,7 +22,7 @@ client.on('message', async (e) => {
   const senText = e.raw_message
 
   if (senText.indexOf('@' + client.nickname) !== -1) {
-    const reply = await getGptReply(senText.split(' ')[1], e.from_id)
+    const reply = await getGptReply(senText.split(' ')[1], e.user_id)
     e.reply(reply, true)
   }
 })
