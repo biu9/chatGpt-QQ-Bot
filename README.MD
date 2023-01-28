@@ -2,20 +2,18 @@
 
 ### 概览
 
-该项目基于QIQC以及chatGpt提供的api搭建了qq机器人,使用时需要`@${bot-nickname} ${your question}`来发送请求
+该项目基于QIQC以及openai提供的api搭建了qq机器人,使用时需要`@${bot-nickname} ${your question}`来发送请求
 
 使用演示:
 
-![123](https://typora-1309407228.cos.ap-shanghai.myqcloud.com/123.png)
+![20230128234339](https://typora-1309407228.cos.ap-shanghai.myqcloud.com/20230128234339.png)
 
 ### 运行
 
 0. 项目运行在node环境下
 1. npm install安装依赖
-2. 在config中参照chatGpt-sample.json建立chatGpt.json文件
-   1. 获取__Secure-next-auth.session-token:
-      ![20221209192450](https://typora-1309407228.cos.ap-shanghai.myqcloud.com/20221209192450.png)
-3. 运行node main.js开启bot
+2. 在config中参照Gpt-sample.json建立Gpt.json文件
+3. 获取apiKey并输入(需要在openai官网获取)
 
 ### TODO
 
